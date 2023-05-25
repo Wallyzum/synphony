@@ -2,7 +2,7 @@ import LoginPage from '../pageobjects/login.page'
 import ProductPage from '../pageobjects/product.page'
 
 describe('E-commerce App', () => {
-    beforeEach('Opening WebApp',async ()=>{
+    before('Opening WebApp',async ()=>{
         await LoginPage.open()
     })
     it('should be sorted by Name A -> Z by default, test Name Z -> A sort ', async () => { 
