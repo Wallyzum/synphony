@@ -4,8 +4,7 @@
   "description": "Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "wdio",
-    "front": "wdio run ./wdio.conf.ts"
+    "test": "npx wdio wdio.conf.ts"
   },
   "author": "Pablo Montenegro",
   "license": "ISC",
