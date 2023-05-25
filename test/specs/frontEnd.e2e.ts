@@ -13,9 +13,6 @@ describe('E-commerce App', () => {
         await ProductPage.changeSortOption("Name (Z to A)")
         await expect(await ProductPage.selectedSortOption).toEqual("Name (Z to A)")
         await expect(await ProductPage.validateSortFunctionality('Name (Z to A)')).toBe(true)
-
-        
-
     })
 })
 

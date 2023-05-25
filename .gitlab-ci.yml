@@ -18,3 +18,5 @@ test:
   artifacts:
     paths:
       - allure-report/
+  tags:
+    - shared-windows
