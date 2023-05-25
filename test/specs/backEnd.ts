@@ -1,4 +1,4 @@
-const axios = require('axios');
+import axios from 'axios'
 
 describe('API Test', () => {
   it('should retrieve objects with Category "Authentication & Authorization"', async () => {

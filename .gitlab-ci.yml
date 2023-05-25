@@ -19,4 +19,4 @@ test:
     paths:
       - allure-report/
   tags:
-    - shared-windows
+    - shared-macos-amd64
