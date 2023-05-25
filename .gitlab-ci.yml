@@ -1,0 +1,14 @@
+stages:
+  - test
+
+test:
+  stage: test
+  image: node:latest
+  variables:
+    CHROME_BIN: /usr/bin/google-chrome
+  services:
+    - selenium/standalone-chrome:latest
+  before_script:
+    - npm install
+  script:
+    - npm test
