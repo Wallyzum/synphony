@@ -15,6 +15,7 @@
     "@wdio/mocha-framework": "^8.10.4",
     "@wdio/spec-reporter": "^8.10.5",
     "@wdio/types": "^8.10.4",
+    "allure-commandline": "^2.22.1",
     "chromedriver": "^113.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4",
