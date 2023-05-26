@@ -6,8 +6,8 @@ Automation Test challenge
 - Authors:  Montenegro Pablo
 
 ## Install & Dependence
-- node
-- npm
+- [node](https://nodejs.dev/en/learn/how-to-install-nodejs/)
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 - install dependencies
   ```

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 25 20:55:15 ART 2023","Thu May 25 20:55:15 ART 2023","7","","API Test","","","","should retrieve objects with Category ""Authentication & Authorization""",""
+"passed","Thu May 25 20:55:15 ART 2023","Thu May 25 20:55:16 ART 2023","917","","E-commerce App","","","","should be sorted by Name A -> Z by default, test Name Z -> A sort ",""
