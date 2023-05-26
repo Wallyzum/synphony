@@ -12,12 +12,13 @@ test:
     paths:
       - node_modules/
   before_script:
-    - sudo npm install -g npm@latest
-    - sudo npm install -g typescript@latest
+    - npm -v
+    - node -v
     - npm install
   script:
     - npm test
   artifacts:
+    name: allure-report
     paths:
       - allure-report/
   tags:
